@@ -1,2 +1,2 @@
-github "SwiftyJSON/SwiftyJSON"
-github "Thomvis/BrightFutures"
+github "SwiftyJSON/SwiftyJSON" ~> 4.2
+github "Thomvis/BrightFutures" ~> 7.0
