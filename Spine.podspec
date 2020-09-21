@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name = 'Spine'
+  s.name = 'ShoreSpine'
   s.version = '0.3'
   s.license = 'MIT'
   s.summary = 'A Swift library for interaction with a jsonapi.org API'
-  s.homepage = 'https://github.com/wvteijlingen/Spine'
-  s.authors = { 'Ward van Teijlingen' => 'w.van.teijlingen@gmail.com' }
-  s.source = { :git => 'https://github.com/wvteijlingen/Spine.git', :tag => s.version }
+  s.homepage = 'https://https://github.com/shore-gmbh/Spine'
+  s.authors = { 'Mihran Dovlatyan' => 'mihran.dovlatyan@shore.com' }
+  s.source = { :git => 'https://github.com/shore-gmbh/Spine.git' }
 
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
