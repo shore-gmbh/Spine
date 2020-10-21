@@ -1,2 +1,2 @@
-github "SwiftyJSON/SwiftyJSON"
-github "Thomvis/BrightFutures"
+github "DenTelezhkin/SwiftyJSON" "xcode-12"
+github "MagFer/BrightFutures" "master"
