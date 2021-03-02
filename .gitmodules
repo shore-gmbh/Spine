@@ -3,4 +3,4 @@
 	url = https://github.com/DenTelezhkin/SwiftyJSON.git
 [submodule "Carthage/Checkouts/BrightFutures"]
 	path = Carthage/Checkouts/BrightFutures
-	url = https://github.com/MagFer/BrightFutures.git
+	url = https://github.com/MihranDovlatyan/BrightFutures.git
