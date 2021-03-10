@@ -83,9 +83,7 @@
 		24EA5DB11D2D39A700F3E867 /* SingleFooWithUnregisteredType.json in Resources */ = {isa = PBXBuildFile; fileRef = 24EA5DB01D2D39A100F3E867 /* SingleFooWithUnregisteredType.json */; };
 		24EA5DB21D2D39A800F3E867 /* SingleFooWithUnregisteredType.json in Resources */ = {isa = PBXBuildFile; fileRef = 24EA5DB01D2D39A100F3E867 /* SingleFooWithUnregisteredType.json */; };
 		B5777E9B25EEC04100F484C9 /* BrightFutures.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5777E9925EEC04100F484C9 /* BrightFutures.xcframework */; };
-		B5777E9C25EEC04100F484C9 /* BrightFutures.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5777E9925EEC04100F484C9 /* BrightFutures.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5777E9D25EEC04100F484C9 /* SwiftyJSON.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5777E9A25EEC04100F484C9 /* SwiftyJSON.xcframework */; };
-		B5777E9E25EEC04100F484C9 /* SwiftyJSON.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5777E9A25EEC04100F484C9 /* SwiftyJSON.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D302A6531DA13BAF00420C48 /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373F7A319B224BB00275AFC /* Spine.swift */; };
 		D302A6541DA13BAF00420C48 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331836B19B2302500936FBB /* Query.swift */; };
 		D302A6551DA13BAF00420C48 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3452C2E1AD18E6900CD413B /* Operation.swift */; };
@@ -124,7 +122,6 @@
 		D302A6761DA13C1400420C48 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E6DF721D6831520072D4DC /* SwiftyJSON.framework */; };
 		D302A6781DA13CAB00420C48 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32EA6DC1BCBD5930076CFA5 /* Result.framework */; };
 		D302A6791DA13CAB00420C48 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3411E771A4B5C2C00D27F54 /* BrightFutures.framework */; };
-		D302A67A1DA13CAB00420C48 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3411E7A1A4B5D2200D27F54 /* SwiftyJSON.framework */; };
 		D307FBEE1A97756700EE0FAC /* SingleFooIncludingBars.json in Resources */ = {isa = PBXBuildFile; fileRef = D307FBED1A97756700EE0FAC /* SingleFooIncludingBars.json */; };
 		D312E2F819BB83A8004BB3E0 /* SerializingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D312E2F719BB83A8004BB3E0 /* SerializingTests.swift */; };
 		D312E30219BB8822004BB3E0 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FB17E19B9D7F10073A888 /* Networking.swift */; };
@@ -209,8 +206,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B5777E9C25EEC04100F484C9 /* BrightFutures.xcframework in Embed Frameworks */,
-				B5777E9E25EEC04100F484C9 /* SwiftyJSON.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +341,6 @@
 			files = (
 				D302A6781DA13CAB00420C48 /* Result.framework in Frameworks */,
 				D302A6791DA13CAB00420C48 /* BrightFutures.framework in Frameworks */,
-				D302A67A1DA13CAB00420C48 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
